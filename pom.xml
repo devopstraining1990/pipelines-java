@@ -17,7 +17,7 @@
     </dependency>
   </dependencies>
 	<distributionManagement>
-		<repositories>
+		
 <repository>
   <id>devopstraining1990-1</id>
   <url>https://pkgs.dev.azure.com/devopstraining1990-1/_packaging/devopstraining1990-1/maven/v1</url>
@@ -28,8 +28,20 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-		</repositories>
-	</distributionManagement>	
+		
+	</distributionManagement>
+	<repositories>
+		<repository>
+  <id>devopstraining1990-1</id>
+  <url>https://pkgs.dev.azure.com/devopstraining1990-1/_packaging/devopstraining1990-1/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+	</repositories>
   <build>
     <finalName>helloworld</finalName>
     <plugins>
