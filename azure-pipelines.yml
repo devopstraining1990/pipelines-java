@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: SUREH_DEOM-AGN
 
 steps:
 - task: Maven@3
