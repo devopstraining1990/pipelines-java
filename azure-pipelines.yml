@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: default
+pool: SUREH_DEOM-AGN
 
 steps:
 - task: Maven@3
