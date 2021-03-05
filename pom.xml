@@ -16,6 +16,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<distributionmanagement>	
 <repository>
   <id>devopstraining1990-1</id>
   <url>https://pkgs.dev.azure.com/devopstraining1990-1/_packaging/devopstraining1990-1/maven/v1</url>
@@ -26,6 +27,7 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
+	</distributionmanagement>	
   <build>
     <finalName>helloworld</finalName>
     <plugins>
