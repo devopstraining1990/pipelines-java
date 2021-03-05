@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: SUREH_DEOM-AGN
+  vmImage: SURESH_RHEL_AGENT
 
 steps:
 - task: Maven@3
