@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  name: suresh-rhel
+pool: suresh-rhel
 
 steps:
 - task: Maven@3
