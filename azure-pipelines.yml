@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: suresh-rhel
+  name: suresh-rhel
 
 steps:
 - task: Maven@3
