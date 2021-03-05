@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: suresh-rhel
+pool: default
 
 steps:
 - task: Maven@3
